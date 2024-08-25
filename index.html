@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>HTML Tutorial</title>
+</head>
+<body>
+  <!-- Learning About tags   -->
+
+<!-- heading tags -->
+ <h1>This is heading 1</h1>
+ <h2>This is heading 2</h2>
+ <h3>This is heading 2</h3>
+ <h4>This is heading 2</h4>
+ <h5>This is heading 2</h5>
+ <h6>This is heading 2</h6>
+
+ <!-- This is comment -->
+
+ <!-- this is paragraph tag -->
+<p>This is paragraph tag</p>
+
+<!-- br tag -->
+ <p>This is <br> paragraph</p>
+
+<!-- pre tag -->
+ <pre>This is pre 
+   tag using this we
+   can write in any format
+ </pre>
+ 
+ <!-- hr tag -->
+
+<p> This is paragraph tag and <hr> we use hr tag in this</p>
+
+<!-- anchor tag  -->
+ <a href="https://stackoverflow.com/questions/70249584/live-server-not-refreshing-browser">Stack overflow</a>
+
+ <!-- orderd list tag -->
+
+<ol type="i"> 
+  <!-- here  type attribute is used to define which type you want 1,A,a,I,i  -->
+  <p>This is ordered list</p>
+  <li>item -1</li>
+  <li>item -2</li>
+  <li>item -3</li>
+</ol>
+
+<!-- unordered list tag -->
+<ul type="" > 
+  <!-- here  type attribute is used to define which type you want 1,A,a,I,i  -->
+  <p>This is ordered list</p>
+  <li>item -1</li>
+  <li>item -2</li>
+  <li>item -3</li>
+</ul>
+
+<!-- descriptive list -->
+<dl>
+  <dt>Title</dt>
+  <dd>description</dd>
+</dl>
+
+<!-- img tag -->
+ <!-- <img src="testing-image.jpg" alt="sacin image" height="200px"> -->
+
+ <!-- picture tag -->
+  <picture>
+    <source media="(min-width: 800px)" srcset="testing-icon.png" >
+    <source media="(min-width: 400px)" srcset="testing-image.jpg "  >    
+    <img src="testing-image.jpg" alt="" style="width: auto;" title="logo" height="200px" loading="eager" >
+  </picture>
+
+  <!-- tables in html -->
+   <table frame="box" rules="groups" border="2" cellpadding="10" cellspacing="4">
+    <caption>This table is define for convention of some specific words</caption>
+    <thead>
+      <tr>
+        <th>heading</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tfoot>
+      <tr>
+        <td colspan="2">This is genrated by @sachin</td>
+      </tr>
+    </tfoot>
+    <tbody>
+      <tr>
+        <td>Name</td>
+        <td>It is use to set specific word.</td>
+      </tr>
+    </tbody>    
+    
+   </table>
+
+   <!-- form section -->
+    <h1>Form</h1>
+    <form action="#" method="post">
+      <label for="Input">Enter Your Name :</label>
+      <input type="text" name="username" id="username" value="jhon" >
+      <br><br>
+      <label for="password">Enter your Password</label>
+      <input type="email" placeholder="Enter password">
+      <br><br>
+      <label for="course">Course</label>
+      <select name="course" id="#selectCourse">
+        <optgroup>
+        <option   value="india">india</option>
+        <option value="china">china</option>
+        <option   value="nepal">nepal</option>
+        <option   value="sri lanka">sri lanka</option>
+      </optgroup>
+      </select>
+      <!-- <option  value="bca">BCA</option> -->
+      <label for="description">Description</label>
+      <textarea name="description" id="description" cols="30" rows="10"></textarea>
+      <fieldset>
+        <legend>Resume</legend>
+        <select name="course" id="#selectCourse">
+          <optgroup>
+          <option   value="india">india</option>
+          <option value="china">china</option>
+          <option   value="nepal">nepal</option>
+          <option   value="sri lanka">sri lanka</option>
+        </optgroup>
+        </select>
+      </fieldset>    
+
+    </form>
+    <!-- type of input -->
+     <h2>Types of Input</h2>
+     <form action="#">
+      <input type="text" placeholder="text type"><br>
+      <input type="password" placeholder="password type">
+      <br>
+      <input type="number" placeholder="number type">
+      <br>
+      <input type="checkbox" placeholder="checkbox type">
+      <br>
+      <input type="radio" placeholder="radio type">
+      <input type="color" placeholder="radio type">
+      <button type="submit">Login in</button>
+     </form>
+     <input type="file">
+     <input type="time" name="" id="">
+     <input type="reset" value="">
+     <canvas id="scene"></canvas>
+     <iframe src="https://chaurasiya-sachin.github.io/moviesadda/" width="600" height="400" frameborder="0" title="External content"></iframe>
+</body>
+</html>
